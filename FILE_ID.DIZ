@@ -10,7 +10,7 @@
            |    |  /    /  \_
            |    |_/\___/\__/
 
-            1935711 Presents
+      1935711 & e!ghtbm Presents
               Ego Sum Pico
 
   Type ... : .......... Baremetal Demo
@@ -18,3 +18,46 @@
   Party .. : ........... DeCrunch 2023
   Compo .. : .................... Wild
   Platform : ....... Raspberry Pi Pico
+
+Raspberry Pi Pico:
+2x ARM Cortex M0+ overlocked to
+300MHz, 256KB RAM, and 2MB flash.
+Final demo size is 1375232B.
+
+Video on core 0:
+PIO scanline timing and software video
+generation (no hardware acceleration).
+VGA 6:5:5 160x120@60 upscaled to
+640x480@60 with PIO.
+
+Audio on core 1:
+PIO I2S to PCM5100A DAC and software
+audio copy from flash.
+
+Found out the party is happening in a
+week so had to make this really
+quickly. Huge thanks to e!ghtbm for
+having a blazing fast 2 day
+turn-around time for the music. Thanks
+to vino for organizing a great party
+once again, decrunch rocks! It was a
+tough ~100 hours of debugging,
+so I hope you'll enjoy it at the very
+least.
+
+Thanks to:
+- lechu for lending me the capture
+card used to record the demo.
+- vino for supporting the prod before
+and during the party.
+- miły for the video and audio capture
+one hour before deadline.
+- epic7000 for helping solve an
+elusive rendering bug that I spent way
+too long trying to fix myself.
+- Everyone at the demo party who
+showed support in the final days/hours
+before the deadline.
+- Everyone out there somewhere on
+Earth (and beyond), who are part of
+our lovely demoscene community.

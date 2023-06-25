@@ -1,0 +1,6 @@
+[submodule "egosumpico/lib/pico-sdk"]
+	path = egosumpico/lib/pico-sdk
+	url = git@github.com:raspberrypi/pico-sdk.git
+[submodule "egosumpico/lib/pico-extras"]
+	path = egosumpico/lib/pico-extras
+	url = git@github.com:raspberrypi/pico-extras.git
